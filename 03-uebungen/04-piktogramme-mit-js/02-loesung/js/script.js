@@ -63,7 +63,7 @@ let piktogrammContainer = document.querySelector('.piktogramm');
 
 // Aus den Daten lesen, was die durchschnittliche Stundenanzahl pro Schweizer pro Woche ist (42.1), das dann in Minuten
 // umrechnen, und geteilt durch die Anzahl Minuten pro Pomodoro (20) rechnen, um auf die Anzahl Pomodoros pro Woche zu kommen
-let zeitFuerEinPomodoroInMinuten = 20;
+let zeitFuerEinPomodoroInMinuten = 25;
 let durchschnittsArbeitszeitSchweizerProWocheInMinuten = 42.1 * 60;
 let anzahlPomodorosSchweizerProWoche = durchschnittsArbeitszeitSchweizerProWocheInMinuten / zeitFuerEinPomodoroInMinuten;
 
