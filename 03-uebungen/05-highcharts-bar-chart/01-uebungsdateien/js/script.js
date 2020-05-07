@@ -1,1 +1,1 @@
-console.log('script.js wurde erfolgreich geladen');
+console.log('script.js wurde rfolgreich geladen');
