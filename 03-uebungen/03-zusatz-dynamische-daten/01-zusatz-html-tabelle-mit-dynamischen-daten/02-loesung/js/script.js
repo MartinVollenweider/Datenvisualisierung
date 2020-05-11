@@ -13,7 +13,7 @@ fetch('extern/AzWocheCH.json')
     console.log('Error: ' + error.message);
   });
 
-// Tabelle nach Klasse .chart-table selektieren und in Variable speichern
+/* Tabelle nach Klasse .chart-table selektieren und in Variable speichern */
 let tabelle = document.querySelector('.chart-table')
 
 /* Erstellt Table Head */
