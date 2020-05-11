@@ -21,7 +21,7 @@ function erstelleTabHead(headData){
 	let row = tabelle.insertRow(-1);
 	for(let prop in headData){
 		let cell = document.createElement("th");
-    if(prop == "Männer"){
+    if(prop == "Maenner"){
       cell.innerHTML = prop + ' <img src="./imgs/icon-maennlich.svg" class="icon" />';
     } else if(prop == "Frauen"){
       cell.innerHTML = prop + ' <img src="./imgs/icon-weiblich.svg" class="icon" />';
