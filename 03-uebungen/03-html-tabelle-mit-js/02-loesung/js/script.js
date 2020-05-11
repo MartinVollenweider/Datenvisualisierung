@@ -73,4 +73,4 @@ function reiheHinzufuegen(row) {
 
 for (let i = 0; i < data.length; i++) {
 	reiheHinzufuegen(data[i]);
-}
+};
