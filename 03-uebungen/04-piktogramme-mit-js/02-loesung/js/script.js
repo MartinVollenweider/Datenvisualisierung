@@ -88,8 +88,9 @@ for (let i = 0; i < anzahlPomodorosSchweizerProWoche; i++) {
 	neueTomate.setAttribute('id', 'pomodoro-' + i);
 	// Und fügen in jedem Loop eine Tomate zum Container hinzu
 	piktogrammContainer.appendChild(neueTomate);
+	let neueTomateDOMElement = document.querySelector('#pomodoro-' + i);
 	setTimeout(function () {
-		document.querySelector('#pomodoro-' + i).classList.add('visible');
+		neueTomateDOMElement.classList.add('visible');
 	}, i * 15)
 }
 
